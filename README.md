@@ -42,13 +42,29 @@
 
 ## Endpoints
 
-Film endpoints are routed by film and user. The url structure is:
-https://<host name>/<route>/<endpoint>
+Film endpoints are routed by film and user. 
 
-| Function | HTTP Method | Route | Endpoint | Url example |
+The url structure is:
+> ```https://<host name>/<route>/<endpoint>```   
+
+| Function | HTTP Method | Route (film) | Endpoint | Url example |
 | ------ | ------ | ------ | ------ | ------ |
 | Search film info by keyword | GET | film | /infofilm/:keyword | https://myFilmstore.kcwong8051.repl.co/film/infofilm/king |
 | Add films by batch | POST | film | /imfilms | https://myFilmstore.kcwong8051.repl.co/film/imfilms |
 | Add one film | POST | film | /imfilm | https://myFilmstore.kcwong8051.repl.co/film/imfilm | 
 | Search film info by key-pair value | GET | film | /film/:key/:value | https://myFilmstore.kcwong8051.repl.co/film/film/Title/king |
-| List films info | GET | film | /list | https://myfilmstore.kcwong8051.repl.co/film/film/Title/king |
+| List films info | GET | film | /list | https://myfilmstore.kcwong8051.repl.co/film/list |
+| Update one film | PUT | film | /updatefilm/:imdbid | https://myfilmstore.kcwong8051.repl.co/film/updatefilm/tt0455590 |
+| Remove one film | DELETE | film | /removefilm/:imdbid | https://myfilmstore.kcwong8051.repl.co/film/removefilm/tt0455590 |
+   
+| Function | HTTP Method | Route (user) | Endpoint | Url example |
+| ------ | ------ | ------ | ------ | ------ |
+| Add users by batch | POST | user | /applys | https://myFilmstore.kcwong8051.repl.co/user/applys |
+| Add one user | POST | user | /apply | https://myFilmstore.kcwong8051.repl.co/user/apply |
+| Login | POST | user | /auth | https://myFilmstore.kcwong8051.repl.co/user/auth |
+| Update user info | PUT | user | /update | https://myFilmstore.kcwong8051.repl.co/user/update |
+| Remove user | DELETE | user | /removeuser | https://myFilmstore.kcwong8051.repl.co/user/removeuser |
+| Bookmark film by user | POST | user | /bookmarkfilm/:imdbid | https://myFilmstore.kcwong8051.repl.co/user/bookmarkfilm/tt0455590 |
+| Rate film by user | POST | user | /ratefilm/:imdbid | https://myFilmstore.kcwong8051.repl.co/user/ratefilm/tt0455590 |
+| List user(s) | GET | user | /list | https://myFilmstore.kcwong8051.repl.co/user/list |
+
