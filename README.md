@@ -1,6 +1,6 @@
 # Assignment of film api
 
-   This API is written by node.js, express as server and using mongodb.client connecting to mongodb. Database called filmstore consist of 2 collections - film and user. The API achieves CRUD operation by POST, GET, UPDATE and DELETE.
+   This API is written by node.js, express.js as server and using mongodb.client connecting to mongodb. Database called filmstore consist of 2 collections - film and user. The API achieves CRUD operation by POST, GET, UPDATE and DELETE. API is starteded by command "cd app" and "node app.js" in console.
 
 ## Folder structure
 
@@ -39,3 +39,16 @@
 10. bookmark: Array
 11. modifieddt: Date
 12. rate: Array
+
+## Endpoints
+
+Film endpoints are routed by film and user. The url structure is:
+https://<host name>/<route>/<endpoint>
+
+| Function | HTTP Method | Route | Endpoint | Url example |
+| ------ | ------ | ------ | ------ | ------ |
+| Search film info by keyword | GET | film | /infofilm/:keyword | https://myFilmstore.kcwong8051.repl.co/film/infofilm/king |
+| Add films by batch | POST | film | /imfilms | https://myFilmstore.kcwong8051.repl.co/film/imfilms |
+| Add one film | POST | film | /imfilm | https://myFilmstore.kcwong8051.repl.co/film/imfilm | 
+| Search film info by key-pair value | GET | film | /film/:key/:value | https://myFilmstore.kcwong8051.repl.co/film/film/Title/king |
+| List films info | GET | film | /list | https://myfilmstore.kcwong8051.repl.co/film/film/Title/king |
