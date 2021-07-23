@@ -131,7 +131,7 @@ The url structure is:
    
 ## Video for demo
 [![Watch the demo video](https://i.imgur.com/lYDH4nJ.png)](https://vimeo.com/557297022/4af159cdad)
-[![Watch the demo video](https://i.imgur.com/bADzPZy.png)](https://vimeo.com/557303528/a94fb63bbf)
+[![Watch the demo video](https://i.imgur.com/wgFyWPU.png)](https://vimeo.com/557303528/a94fb63bbf)
    
 ## License
 
