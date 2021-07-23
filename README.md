@@ -2,6 +2,7 @@
 
    This API is written by node.js, express.js as server and using mongodb.client connecting to mongodb. Database called filmstore consist of 2 collections - film and user. The API achieves CRUD operation by POST, GET, UPDATE and DELETE. API is starteded by command "cd app" and "node app.js" in console. The workspace of this api is: [https://replit.com/@kcwong8051/myFilmstore](https://replit.com/@kcwong8051/myFilmstore) 
 
+---
 ## Folder structure
 
 ```
@@ -15,6 +16,7 @@
 |   +-- Readme.md
 ```
 
+---
 ## Database (filmstore) structure
 
 ### Collection (film)
@@ -40,6 +42,7 @@
 11. modifieddt: Date
 12. rate: Array
 
+---
 ## Endpoints
 
 Film endpoints are routed by (1)film and (2)user. 
@@ -72,8 +75,9 @@ The url structure is:
 | VII. Rate film by user | POST | /ratefilm/:imdbid | https://myFilmstore.kcwong8051.repl.co/user/ratefilm/tt0455590 |
 | VIII. List user(s) | GET | /list | https://myFilmstore.kcwong8051.repl.co/user/list |
 
-## Use Api scenario - implemented by [PostMan](https://www.postman.com/)
 ---   
+## Use Api scenario - implemented by [PostMan](https://www.postman.com/)
+   
 ### 1. Search film info by keyword - film route
 ![Search](./screenshots/infofilm.png "infofilm")
 
@@ -93,5 +97,6 @@ The url structure is:
 ### 6. Update one film - film route
 ![UpdateFilm](./screenshots/updatefilm.png "updatefilm")
    
-### 6. Remove one film - film route
+### 7. Remove one film - film route
 ![RemoveFilm](./screenshots/removefilm.png "removefilm")
+
