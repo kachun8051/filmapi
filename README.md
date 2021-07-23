@@ -51,24 +51,28 @@ The url structure is:
 
 | Function | HTTP Method | Endpoint | Url example |
 | ------ | ------ | ------ | ------ |
-| Search film info by keyword | GET | /infofilm/:keyword | https://myFilmstore.kcwong8051.repl.co/film/infofilm/king |
-| Add films by batch | POST | /imfilms | https://myFilmstore.kcwong8051.repl.co/film/imfilms |
-| Add one film | POST | /imfilm | https://myFilmstore.kcwong8051.repl.co/film/imfilm | 
-| Search film info by key-pair value | GET | /film/:key/:value | https://myFilmstore.kcwong8051.repl.co/film/film/Title/king |
-| List films info | GET | /list | https://myfilmstore.kcwong8051.repl.co/film/list |
-| Update one film | PUT | /updatefilm/:imdbid | https://myfilmstore.kcwong8051.repl.co/film/updatefilm/tt0455590 |
-| Remove one film | DELETE | /removefilm/:imdbid | https://myfilmstore.kcwong8051.repl.co/film/removefilm/tt0455590 |
+| 1. Search film info by keyword | GET | /infofilm/:keyword | https://myFilmstore.kcwong8051.repl.co/film/infofilm/king |
+| 2. Add films by batch | POST | /imfilms | https://myFilmstore.kcwong8051.repl.co/film/imfilms |
+| 3. Add one film | POST | /imfilm | https://myFilmstore.kcwong8051.repl.co/film/imfilm | 
+| 4. Search film info by key-pair value | GET | /film/:key/:value | https://myFilmstore.kcwong8051.repl.co/film/film/Title/king |
+| 5. List films info | GET | /list | https://myfilmstore.kcwong8051.repl.co/film/list |
+| 6. Update one film | PUT | /updatefilm/:imdbid | https://myfilmstore.kcwong8051.repl.co/film/updatefilm/tt0455590 |
+| 7. Remove one film | DELETE | /removefilm/:imdbid | https://myfilmstore.kcwong8051.repl.co/film/removefilm/tt0455590 |
    
 ### user route
    
 | Function | HTTP Method | Endpoint | Url example |
 | ------ | ------ | ------ | ------ |
-| Add users by batch | POST | /applys | https://myFilmstore.kcwong8051.repl.co/user/applys |
-| Add one user | POST | /apply | https://myFilmstore.kcwong8051.repl.co/user/apply |
-| Login | POST | /auth | https://myFilmstore.kcwong8051.repl.co/user/auth |
-| Update user info | PUT | /update | https://myFilmstore.kcwong8051.repl.co/user/update |
-| Remove user | DELETE | /removeuser | https://myFilmstore.kcwong8051.repl.co/user/removeuser |
-| Bookmark film by user | POST | /bookmarkfilm/:imdbid | https://myFilmstore.kcwong8051.repl.co/user/bookmarkfilm/tt0455590 |
-| Rate film by user | POST | /ratefilm/:imdbid | https://myFilmstore.kcwong8051.repl.co/user/ratefilm/tt0455590 |
-| List user(s) | GET | /list | https://myFilmstore.kcwong8051.repl.co/user/list |
+| I. Add users by batch | POST | /applys | https://myFilmstore.kcwong8051.repl.co/user/applys |
+| II. Add one user | POST | /apply | https://myFilmstore.kcwong8051.repl.co/user/apply |
+| III. Login | POST | /auth | https://myFilmstore.kcwong8051.repl.co/user/auth |
+| IV. Update user info | PUT | /update | https://myFilmstore.kcwong8051.repl.co/user/update |
+| V. Remove user | DELETE | /removeuser | https://myFilmstore.kcwong8051.repl.co/user/removeuser |
+| VI. Bookmark film by user | POST | /bookmarkfilm/:imdbid | https://myFilmstore.kcwong8051.repl.co/user/bookmarkfilm/tt0455590 |
+| VII. Rate film by user | POST | /ratefilm/:imdbid | https://myFilmstore.kcwong8051.repl.co/user/ratefilm/tt0455590 |
+| VIII. List user(s) | GET | /list | https://myFilmstore.kcwong8051.repl.co/user/list |
 
+## Use Api scenario - implemented by [PostMan](https://www.postman.com/)
+   
+### 1. Search film info by keyword - film route
+   
