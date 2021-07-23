@@ -78,7 +78,8 @@ The url structure is:
 ![Search](./screenshots/infofilm.png "infofilm")
 
 ### 2. Add films by batch - film route
-![AddBatch](./screenshots/imfilms.png "imfilms")
+![AddBatch](./screenshots/imfilms_1.png "imfilms_1")
+![AddBatch](./screenshots/imfilms_2.png "imfilms_2")   
    
 ### 3. Add one film - film route
 ![AddBatch](./screenshots/imfilm.png "imfilm")
