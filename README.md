@@ -75,4 +75,4 @@ The url structure is:
 ## Use Api scenario - implemented by [PostMan](https://www.postman.com/)
    
 ### 1. Search film info by keyword - film route
-   
+![Search](./screenshots/infofilm.png "infofilm")
