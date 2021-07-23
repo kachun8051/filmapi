@@ -73,6 +73,24 @@ The url structure is:
 | VIII. List user(s) | GET | /list | https://myFilmstore.kcwong8051.repl.co/user/list |
 
 ## Use Api scenario - implemented by [PostMan](https://www.postman.com/)
-   
+---   
 ### 1. Search film info by keyword - film route
 ![Search](./screenshots/infofilm.png "infofilm")
+
+### 2. Add films by batch - film route
+![AddBatch](./screenshots/imfilms.png "imfilms")
+   
+### 3. Add one film - film route
+![AddBatch](./screenshots/imfilm.png "imfilm")
+
+### 4. Search film info by key-pair value - film route
+![SearchByKey](./screenshots/searchkeypairvalue.png "searchkeypairvalue")
+   
+### 5. List films info - film route
+![ListFilms](./screenshots/filmlist.png "filmlist")
+
+### 6. Update one film - film route
+![UpdateFilm](./screenshots/updatefilm.png "updatefilm")
+   
+### 6. Remove one film - film route
+![RemoveFilm](./screenshots/removefilm.png "removefilm")
