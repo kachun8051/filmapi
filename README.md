@@ -86,7 +86,7 @@ The url structure is:
 ![AddBatch](./screenshots/imfilms_2.png "imfilms_2")   
    
 ### 3. Add one film - film route
-![AddBatch](./screenshots/imfilm.png "imfilm")
+![AddFilm](./screenshots/imfilm.png "imfilm")
 
 ### 4. Search film info by key-pair value - film route
 ![SearchByKey](./screenshots/searchkeypairvalue.png "searchkeypairvalue")
@@ -101,17 +101,32 @@ The url structure is:
 ![RemoveFilm](./screenshots/removefilm.png "removefilm")
 
 ### I. Add users by batch - user route
+![AddBatch](./screenshots/usersapply_1.png "usersapply#1")
+![AddBatch](./screenshots/usersapply_2.png "usersapply#2")
    
 ### II. Add one user - user route
+![AddUser](./screenshots/userapply.png "userapply")
    
 ### III. Login - user route
+![UserAuth](./screenshots/userauth.png "userauth")
    
 ### IV. Update user info
+![UserUpdate](./screenshots/userupdate.png "userupdate")
    
 ### V. Remove user
+![UserRemove](./screenshots/userremove.png "userremove")   
    
-### VI. Bookmark film by user
+### VI. Bookmark film by user x 2 times
+![UserBookmark](./screenshots/userbookmarkfilm_1.png "userbookmark#1")
+![UserBookmark](./screenshots/userbookmarkfilm_2.png "userbookmark#2")
+![UserBookmark](./screenshots/userbookmark_result.png "mongodb bookmark result")
    
 ### VII. Rate film by user
+![UserRateFilm](./screenshots/userratefilm_1.png "userrate#1")
+![UserRateFilm](./screenshots/userratefilm_2.png "userrate#2")
+![UserRateFilm](./screenshots/userratefilm_result.png "mongodb rate result")
    
 ### VIII. List user(s)
+![UserList](./screenshots/userlist.png "user list")
+   
+
