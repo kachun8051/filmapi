@@ -121,7 +121,7 @@ The url structure is:
 ![UserBookmark](./screenshots/userbookmarkfilm_2.png "userbookmark#2")
 ![UserBookmark](./screenshots/userbookmarkfilm_result.png "mongodb bookmark result")
    
-### VII. Rate film by user
+### VII. Rate film by user x 2 times
 ![UserRateFilm](./screenshots/userratefilm_1.png "userrate#1")
 ![UserRateFilm](./screenshots/userratefilm_2.png "userrate#2")
 ![UserRateFilm](./screenshots/userratefilm_result.png "mongodb rate result")
@@ -131,7 +131,7 @@ The url structure is:
    
 ## Video for demo
 [![Watch the demo video](https://i.imgur.com/lYDH4nJ.png)](https://vimeo.com/557297022/4af159cdad)
-[![Watch the demo video](https://i.imgur.com/lYDH4nJ.png)](https://vimeo.com/557303528/a94fb63bbf)
+[![Watch the demo video](https://i.imgur.com/bADzPZy.png)](https://vimeo.com/557303528/a94fb63bbf)
    
 ## License
 
