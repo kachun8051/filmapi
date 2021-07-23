@@ -100,3 +100,18 @@ The url structure is:
 ### 7. Remove one film - film route
 ![RemoveFilm](./screenshots/removefilm.png "removefilm")
 
+### I. Add users by batch - user route
+   
+### II. Add one user - user route
+   
+### III. Login - user route
+   
+### IV. Update user info
+   
+### V. Remove user
+   
+### VI. Bookmark film by user
+   
+### VII. Rate film by user
+   
+### VIII. List user(s)
