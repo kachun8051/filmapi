@@ -119,7 +119,7 @@ The url structure is:
 ### VI. Bookmark film by user x 2 times
 ![UserBookmark](./screenshots/userbookmarkfilm_1.png "userbookmark#1")
 ![UserBookmark](./screenshots/userbookmarkfilm_2.png "userbookmark#2")
-![UserBookmark](./screenshots/userbookmark_result.png "mongodb bookmark result")
+![UserBookmark](./screenshots/userbookmarkfilm_result.png "mongodb bookmark result")
    
 ### VII. Rate film by user
 ![UserRateFilm](./screenshots/userratefilm_1.png "userrate#1")
@@ -129,4 +129,18 @@ The url structure is:
 ### VIII. List user(s)
 ![UserList](./screenshots/userlist.png "user list")
    
+## Video for demo
+[![Watch the demo video](https://i.imgur.com/lYDH4nJ.png)](https://vimeo.com/557297022/4af159cdad)
+[![Watch the demo video](https://i.imgur.com/lYDH4nJ.png)](https://vimeo.com/557303528/a94fb63bbf)
+   
+## License
 
+MIT
+
+## About
+
+Course: Professional Diploma in Cross-platform Applications Development (API)
+
+Student: Wong Ka Chun
+
+Date: 2021-07-23
